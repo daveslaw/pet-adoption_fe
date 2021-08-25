@@ -3,7 +3,7 @@ import pug from "../Images/pug-801826_1920.jpg";
 import { useContext } from "react";
 
 import { AppContext } from "../Context/AppContext";
-import Button from "@material-ui/core/";
+import { Button } from "@material-ui/core";
 
 function Home() {
 	const appContext = useContext(AppContext);
