@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap");
+
+.main-wrapper {
+	background-color: #9bdaf2;
+	width: 100%;
+	height: 100vh;
+}
+
+.navbar {
+	color: black;
+	background: #1fafbf;
+}
+
+.navbarlinks {
+	color: black;
+	text-align: right;
+}
+
+.profile-settings {
+	width: 60%;
+}
+
+.pet-card {
+	border: black solid 2px;
+	border-radius: 4px;
+	padding: 1% 2%;
+	background-color: white;
+}
+
+.see-more {
+	cursor: pointer;
+}
+
+.navbarbrand {
+	font-family: "Righteous", cursive;
+}
+
+.form-wrapper {
+	display: flexbox;
+	margin: 0 5%;
+
+	height: 110%;
+	background-color: #9bdaf2;
+}
+
+.form-box {
+	flex-flow: row nowrap;
+	border: red 1px solid;
+}
+
+.name {
+	display: inline;
+	border: green dotted 1px;
+}
+
+.body-container {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: aquamarine;
+	border: aquamarine 1px solid;
+	width: 40%;
+	margin: 5%;
+	padding: 1.5%;
+}
+
+.modal-body {
+	margin: 1% auto;
+}
+
+.basic-search-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+
+	justify-content: center;
+}
+
+.basic-search-elements {
+	margin: 0 1%;
+}
+
+.advanced-search-wrapper {
+	display: flex-inline-block;
+	flex-flow: column nowrap;
+
+	border: 1px solid green;
+}
+
+.advanced-search-elements {
+	align-self: center;
+	margin: 1% 40%;
+}
+
+.thumbnail-photo {
+	height: 100px;
+	width: 100px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+	grid-gap: 1em;
+	margin: 1em;
+}
+
+.body-heading {
+	font-size: 3em;
+	font-family: "Righteous", cursive;
+}
+
+.body-element {
+	font-size: 2em;
+	font-family: "Alumni Sans", sans-serif;
+}
+
+.homepage-image {
+	height: 65vh;
+	width: 70vh;
+	padding: 0.5em;
+	position: absolute;
+	top: 50px;
+
+	left: 680px;
+	border-radius: 50% 50%;
+}
+
+.home-wrapper {
+	position: relative;
+	padding: 2%;
+}
+
+.center-button {
+	margin: -2.5% 0 2.5% 17%;
+	width: 15%;
+}
+
+.admin-panel-buttons {
+	margin: 3px 3px;
+	padding: 2px 2px;
+}
+
+.button-flex {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 1% 1%;
+}
+
+.admin-heading {
+	font-family: Righteous;
+	font-size: 1.5em;
+	margin: 1% 6.5%;
+}
+
+.submit-pet-button {
+	margin: 0 45%;
+}
